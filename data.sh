@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "I am the change"
 sudo yum -y install git
 sudo git clone https://github.com/ankitap1219/step-4.git
 cd step-4/
