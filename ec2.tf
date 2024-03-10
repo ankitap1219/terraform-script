@@ -1,4 +1,4 @@
-resource "aws_instance" "step-5" {
+resource "aws_instance" "poll_scm" {
     ami = "ami-07761f3ae34c4478d"
     instance_type = "t2.micro"
     key_name = "python-kp"
