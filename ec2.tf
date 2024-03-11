@@ -8,7 +8,7 @@ resource "aws_instance" "poll_scm" {
     user_data = file("${path.module}/data.sh")
 
     tags = {
-        Name = "Step-5"
+        Name = "poc_scm"
 
     }
 
