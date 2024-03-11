@@ -1,6 +1,6 @@
 # Creating VPC
 provider "aws" {
-    region = "us-east-2"
+    region = "us-east-1"
 }
 
 resource "aws_vpc" "vpc" {
