@@ -1,5 +1,5 @@
 resource "aws_instance" "poll_scm" {
-    ami = "ami-07761f3ae34c4478d"
+    ami = "ami-0c7f9161f8491665f"
     instance_type = "t2.micro"
     key_name = "python-kp"
     vpc_security_group_ids = ["${aws_security_group.sg.id}"]
